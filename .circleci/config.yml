@@ -15,8 +15,6 @@ jobs:
       - image: circleci/node
     environment:
         AWS_REGION: eu-west-2
-        
-      
     steps:
       - checkout
       - run: npm install
